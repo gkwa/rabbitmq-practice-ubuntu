@@ -1,0 +1,3 @@
+[submodule "docker-taylor-config"]
+	path = docker-taylor-config
+	url = https://github.com/TaylorMonacelli/docker-taylor-config.git
