@@ -10,4 +10,4 @@ RUN sudo apt-get install -y python-pip
 RUN sudo pip install pika
 RUN git clone https://github.com/taylormonacelli/rabbitmq-practice-ubuntu.git||:
 WORKDIR rabbitmq-practice-ubuntu
-RUN git pull
+RUN git fetch && git reset --hard @{upstream}
