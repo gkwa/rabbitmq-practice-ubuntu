@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:14.04.5
 
 MAINTAINER Taylor Monacelli <taylormonacelli@gmail.com>
 
